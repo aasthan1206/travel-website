@@ -3,11 +3,11 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: Ubuntu-BoldItalic;
-    src: url(./assets/fonts/Ubuntu-BoldItalic.ttf);
+    font-family: Nunito-Regular;
+    src: url(./assets/fonts/Nunito-Regular.ttf);
 }
 
 @font-face {
-    font-family: Nunito-Regular;
-    src: url(./assets//fonts/Nunito-Regular.ttf);
+    font-family: Ubuntu-BoldItalic;
+    src: url(./assets/fonts/Ubuntu-BoldItalic.ttf);
 }

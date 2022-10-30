@@ -17,7 +17,7 @@ const SideBar = ({ className }) => {
       </div>
       <div style={{display: isActive ? 'block':'none'}} className='font-main font-bold text-darkblue text-center text-2xl bg-lightpink '>
         {SideBarData.map((link) => (
-            <div className='py-4 border-b-2 border-white hover:bg-lightblue hover:text-white '>{link.title}</div>
+            <div key={link.id} className='py-4 border-b-2 border-white hover:bg-lightblue hover:text-white '>{link.title}</div>
         ))}
       </div>
     </div>

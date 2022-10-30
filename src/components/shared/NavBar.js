@@ -7,7 +7,7 @@ const NavBar = ({ className }) => {
         <div>TravelLog</div>
         <div className="flex px-8">
             {SideBarData.map((link) => (
-                <div className="px-2">{link.title}</div>
+                <div key={link.id} className="px-2">{link.title}</div>
             ))}
         </div>
       </div>
