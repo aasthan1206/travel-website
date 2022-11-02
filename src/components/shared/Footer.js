@@ -13,7 +13,7 @@ const Footer = () => {
         </div>
         <div className="py-2 text-xl">
           {footerLink.map((link) => (
-            <div key={link.id} className="py-2 hover:text-lightyellow">{link.link}</div>
+            <div key={link.id} className="py-2 hover:text-lightyellow cursor-pointer text-left">{link.link}</div>
           ))}
         </div>
         <div><Newsletter /></div>
