@@ -13,9 +13,13 @@ module.exports = {
         'palewhite': '#FBFFF2',
         'lightyellow': '#FFEEC4',
       },
+      backgroundImage: {
+        'hero': "url('/src/assets/images/mountain.jpg')",
+      },
       fontFamily: {
         main: ["Nunito-Regular"],
-      }
+        special: ["Ubuntu-BoldItalic"],
+      },
     },
   },
   plugins: [],
