@@ -21,19 +21,19 @@ export const packageGrid = [
         'image' : couple,
         'title' : 'Couple',
     },
-    {
-        'id' : 4,
-        'image' : solo,
-        'title' : 'Solo',
-    },
-    {
-        'id' : 5,
-        'image' : nature,
-        'title' : 'Nature',
-    },
-    {
-        'id' : 6,
-        'image' : wildlife,
-        'title' : 'Wildlife',
-    },
+    // {
+    //     'id' : 4,
+    //     'image' : solo,
+    //     'title' : 'Solo',
+    // },
+    // {
+    //     'id' : 5,
+    //     'image' : nature,
+    //     'title' : 'Nature',
+    // },
+    // {
+    //     'id' : 6,
+    //     'image' : wildlife,
+    //     'title' : 'Wildlife',
+    // },
 ]
