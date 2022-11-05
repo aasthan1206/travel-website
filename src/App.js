@@ -1,9 +1,10 @@
-import Hero from "./components/Hero"
+import Destination from "./pages/Destination";
+
 
 function App() {
   return (
     <div className="App">
-      <Hero />
+      <Destination />
     </div>
   );
 }
