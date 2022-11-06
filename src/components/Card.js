@@ -14,7 +14,7 @@ const Card = () => {
       <div className="text-5xl text-darkblue font-main font-black mx-4 mt-12">Featured Packages</div>
       <div className="grid grid-rows-1 md:grid-cols-2 lg:grid-cols-3 place-items-center mx-8 my-12 gap-4">
         {packageGrid.map((data) => (
-          <div className="h-[20vh] w-60 lg:h-[35vh] sm:w-96 shadow-stone-600 shadow-md ">
+          <div className="h-[20vh] w-60 lg:h-[35vh] sm:w-96 shadow-stone-600 shadow-md overflow-hidden">
             <div className="text-center text-xl font-bold text-darkblue my-2">{data.title}</div>
             <img
               src={data.image}

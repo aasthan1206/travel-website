@@ -1,4 +1,5 @@
-import Destination from "./pages/Destination";
+import Destination from "./pages/Destination"
+import Hero from "./components/Hero";
 
 
 function App() {
