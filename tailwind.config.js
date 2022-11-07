@@ -16,6 +16,9 @@ module.exports = {
       fontFamily: {
         main: ["Nunito-Regular"],
       },
+      backgroundImage: {
+        'login': "url('/src/assets/images/desert.jpg')",
+      },
     },
   },
   plugins: [],

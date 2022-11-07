@@ -2,8 +2,8 @@
 
 const Login = () => {
   return (
-    <div className="bg-lightyellow flex-col lg:flex lg:flex-row lg:h-screen lg:px-16 px-8 py-12 gap-16">
-        <div className="rounded-md bg-white lg:w-1/2 px-16">
+    <div className="bg-login bg-cover flex-col lg:flex lg:flex-row lg:h-screen lg:px-16 px-8 py-12 gap-16 opacity-90">
+        <div className="rounded-md bg-white lg:w-1/2 px-16 opacity-90">
             <div className="text-darkblue text-4xl font-main font-extrabold py-6">Sign Up</div>
             <div className="text-lg font-main font-bold ">
                 <label htmlFor="">Email</label> <br />
@@ -24,7 +24,7 @@ const Login = () => {
             <button className="bg-darkpink my-4 lg:my-2 px-4 py-2 text-xl text-white font-main font-semibold hover:bg-lightpink hover:text-darkpink rounded-sm">Sign Up</button>
             
         </div>
-        <div className="rounded-md bg-white lg:w-1/2 px-16">
+        <div className="rounded-md bg-white lg:w-1/2 px-16 opacity-90">
             <div className="text-white bg-darkblue text-4xl font-main font-extrabold my-6 p-2">Login</div>
             <div className="text-lg font-main font-bold ">
                 <label htmlFor="">Email</label> <br />
