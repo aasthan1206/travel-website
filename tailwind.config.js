@@ -15,10 +15,12 @@ module.exports = {
       },
       backgroundImage: {
         'hero': "url('/src/assets/images/mountain.jpg')",
+        'login': "url('/src/assets/images/desert.jpg')",
+        'booking' : "url('/src/assets/images/booking.jpg')"
       },
       fontFamily: {
         main: ["Lato-Regular"],
-        special: ["Ubuntu-BoldItalic"],
+        special: ["ErnestandEmily-Regular"],
       },
     },
   },

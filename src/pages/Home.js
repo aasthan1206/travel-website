@@ -7,11 +7,11 @@ import Footer from '../components/shared/Footer'
 const Home = () => {
   return (
     <div>
-        <Navigation />
+
         <Hero />
         <DestinationSlider />
-        <Card />
-        <Footer />
+        {/* <Card /> */}
+
     </div>
   )
 }

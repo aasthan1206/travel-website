@@ -2,10 +2,12 @@ export const SideBarData = [
     {
         'id' : 1,
         'title': 'Home',
+        'to' : '/',
     },
     {
         'id' : 2,
         'title': 'Destination',
+        'to' : '/Destination',
     },
     {
         'id' : 3,
@@ -26,5 +28,6 @@ export const SideBarData = [
     {
         'id' : 7,
         'title': 'Login / Sign Up',
+        'to' : '/Login',
     },
 ]

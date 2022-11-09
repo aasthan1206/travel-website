@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: Ubuntu-BoldItalic;
-    src: url(./assets/fonts/Ubuntu-BoldItalic.ttf);
+    font-family: ErnestandEmily-Regular;
+    src: url(./assets/fonts/ErnestandEmily.ttf);
 }
 
 @font-face {

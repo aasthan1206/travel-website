@@ -20,7 +20,7 @@ export const sliderData = [
         'id' : 2,
         'image' : manali,
         'title' : 'Manali',
-        'desc' : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero esse adipisci doloribus maxime eveniet numquam illo sequi suscipit quo tempora quibusdam laborum exercitationem quasi labore distinctio porro vitae, nulla debitis.',
+        'desc' : "Manali is a high-altitude Himalayan resort town in India’s northern Himachal Pradesh state. It has a reputation as a backpacking center and honeymoon destination. Set on the Beas River, it’s a gateway for skiing in the Solang Valley and trekking in Parvati Valley. It's also a jumping-off point for paragliding, rafting and mountaineering in the Pir Panjal mountains, home to 4,000m-high Rohtang Pass.",
     },
     {
         'id' : 3,

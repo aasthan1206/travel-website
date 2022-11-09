@@ -14,8 +14,8 @@ import { Pagination, Navigation } from "swiper";
 
 const DestinationSlider = () => {
   return (
-    <div className="mx-4">
-        <div className="text-darkblue text-5xl font-main font-black my-12">ICONIC DESTINATIONS</div>
+    <div className="mx-12 mb-12">
+        <div className="text-darkblue text-4xl font-main font-black my-12 text-center">ICONIC DESTINATIONS</div>
         <Swiper
             // slidesPerView={1}
             // spaceBetween={30}

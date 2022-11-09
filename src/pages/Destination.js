@@ -14,46 +14,58 @@ const Destination = () => {
   return (
     <div>
         <div className="">
-            <div className="text-center text-5xl text-darkblue font-main font-extrabold my-8">MANALI</div>
+            <div className="text-6xl text-darkblue font-main font-extrabold my-8 mx-12">MANALI</div>
             <DestinationSlider />
-            <div className="text-center text-xl text-lightblue font-main my-8 mx-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum voluptas officia necessitatibus! Eum, fugit iure! Blanditiis, architecto velit? Vitae, officiis ea inventore repellendus blanditiis quisquam unde accusantium esse voluptate quo!</div>
+            <div className="text-justify text-2xl font-bold text-lightblue font-main my-8 mx-12">Manali is a high-altitude Himalayan resort town in India’s northern Himachal Pradesh state. It has a reputation as a backpacking center and honeymoon destination. Set on the Beas River, it’s a gateway for skiing in the Solang Valley and trekking in Parvati Valley. It's also a jumping-off point for paragliding, rafting and mountaineering in the Pir Panjal mountains, home to 4,000m-high Rohtang Pass.</div>
             <Card />
-            <table className="table-auto w-[50vw] text-center mx-auto font-main mt-64 mb-16">
+            <table className="table-auto w-[50vw] text-center mx-auto font-main mt-80 mb-16">
                   <thead className="text-2xl text-darkblue py-4 bg-lightyellow h-16">
                     <th>Activities</th>
-                    <th>3 D / 2 N</th>
-                    <th>3 D / 2 N</th>
-                    <th>3 D / 2 N</th>
+                    <th>Family</th>
+                    <th>Friends</th>
+                    <th>Couple</th>
                   </thead>
                     <tbody className="text-xl font-extrabold">
-                      <tr className="border-b-2 ">
-                        <td className="py-4">1</td>
+                      <tr className=" ">
+                        <td className="py-4">Treaking</td>
+                        <td className="pl-16"><FaCheck className="text-green-600" /></td>
+                        <td className="pl-16"><FaCheck className="text-green-600" /></td>
                         <td className="pl-16"><FaTimes className="text-red-600" /></td>
+                      </tr>
+                      <tr className="  bg-lightyellow">
+                        <td className="py-4">River Rafting</td>
+                        <td className="pl-16"><FaCheck className="text-green-600" /></td>
                         <td className="pl-16"><FaCheck className="text-green-600" /></td>
                         <td className="pl-16"><FaTimes className="text-red-600" /></td>
                       </tr>
-                      <tr className="border-b-2  bg-lightyellow">
-                        <td className="py-4">1</td>
-                        <td className="pl-16"><FaTimes className="text-red-600" /></td>
-                        <td className="pl-16"><FaCheck className="text-green-600" /></td>
-                        <td className="pl-16"><FaCheck className="text-green-600" /></td>
-                      </tr>
-                      <tr className="border-b-2 ">
-                        <td className="py-4">1</td>
+                      <tr className=" ">
+                        <td className="py-4">Hot Air Balloon</td>
                         <td className="pl-16"><FaCheck className="text-green-600" /></td>
                         <td className="pl-16"><FaCheck className="text-green-600" /></td>
                         <td className="pl-16"><FaCheck className="text-green-600" /></td>
                       </tr>
-                      <tr className="border-b-2  bg-lightyellow">
-                        <td className="py-4">1</td>
+                      <tr className="  bg-lightyellow">
+                        <td className="py-4">Helicopter Ride</td>
                         <td className="pl-16"><FaTimes className="text-red-600" /></td>
                         <td className="pl-16"><FaTimes className="text-red-600" /></td>
-                        <td className="pl-16"><FaTimes className="text-red-600" /></td>
+                        <td className="pl-16"><FaCheck  className="text-green-600" /></td>
                       </tr>
-                      <tr className="border-b-2 ">
-                        <td className="py-4">1</td>
+                      <tr className=" ">
+                        <td className="py-4">Riverside Camping</td>
                         <td className="pl-16"><FaCheck className="text-green-600" /></td>
+                        <td className="pl-16"><FaCheck className="text-green-600" /></td>
+                        <td className="pl-16"><FaCheck  className="text-green-600" /></td>
+                      </tr>
+                      <tr className="  bg-lightyellow">
+                        <td className="py-4">Local Sightseeing</td>
+                        <td className="pl-16"><FaCheck className="text-green-600" /></td>
+                        <td className="pl-16"><FaCheck className="text-green-600" /></td>
+                        <td className="pl-16"><FaCheck  className="text-green-600" /></td>
+                      </tr>
+                      <tr className=" ">
+                        <td className="py-4">Bike Rental</td>
                         <td className="pl-16"><FaTimes className="text-red-600" /></td>
+                        <td className="pl-16"><FaCheck className="text-green-600" /></td>
                         <td className="pl-16"><FaCheck className="text-green-600" /></td>
                       </tr>
                     </tbody>
