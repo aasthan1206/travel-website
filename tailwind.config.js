@@ -4,7 +4,23 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'darkblue': '#2B3699',
+        'lightblue': '#5168C4',
+        'lightpink': '#F7DCED',
+        'darkpink': '#FF78B2',
+        'palewhite': '#FBFFF2',
+        'lightyellow': '#FFEEC4',
+      },
+      backgroundImage: {
+        'hero': "url('/src/assets/images/mountain.jpg')",
+      },
+      fontFamily: {
+        main: ["Nunito-Regular"],
+        special: ["Ubuntu-BoldItalic"],
+      },
+    },
   },
   plugins: [],
 }

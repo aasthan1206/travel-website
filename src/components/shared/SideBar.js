@@ -1,0 +1,27 @@
+import { FaBars } from 'react-icons/fa'
+import { useState } from 'react'
+import { SideBarData } from '../../utils/NavData'
+
+const SideBar = ({ className }) => {
+
+  const [isActive, setIsActive] = useState(false)
+
+  const handleClick = () => {
+    setIsActive(!isActive)
+  }
+  return (
+    <div className={className}>
+      <div className="bg-darkblue text-white font-main font-extrabold flex text-xl justify-between px-4 py-2">
+        <div>TravelLog</div>
+        <div className='cursor-pointer' onClick={handleClick}><FaBars /></div>
+      </div>
+      <div style={{display: isActive ? 'block':'none'}} className='font-main font-bold text-darkblue text-center text-2xl bg-lightpink '>
+        {SideBarData.map((link) => (
+            <div key={link.id} className='py-4 border-b-2 border-white hover:bg-lightblue hover:text-white '>{link.title}</div>
+        ))}
+      </div>
+    </div>
+  )
+}
+
+export default SideBar
