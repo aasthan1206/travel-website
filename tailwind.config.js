@@ -17,7 +17,7 @@ module.exports = {
         'hero': "url('/src/assets/images/mountain.jpg')",
       },
       fontFamily: {
-        main: ["Nunito-Regular"],
+        main: ["Lato-Regular"],
         special: ["Ubuntu-BoldItalic"],
       },
     },

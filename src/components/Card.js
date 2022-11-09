@@ -15,7 +15,7 @@ const Card = () => {
       <div className="text-5xl text-darkblue font-main font-black mx-4 mt-12">Featured Packages</div>
       <div className="grid grid-rows-1 md:grid-cols-2 lg:grid-cols-3 place-items-center mx-8 my-12 gap-4">
         {packageGrid.map((data) => (
-          <div className="h-[20vh] w-60 lg:h-[35vh] sm:w-96 shadow-stone-600 shadow-md bg-gradient-to-r from-black to-palewhite">
+          <div className="h-[20vh] w-60 lg:h-[35vh] sm:w-96 shadow-stone-600 shadow-md bg-gradient-to-r from-lightblue to-palewhite">
             <div className="text-center text-xl font-bold text-palewhite my-2">{data.title}</div>
             <img
               src={data.image}
@@ -34,7 +34,7 @@ const Card = () => {
               <div>4 days /  3 nights</div>
               <button className="bg-lightyellow mt-4 mb-6 px-4 py-2 text-xl text-lightblue font-main font-semibold hover:bg-palewhite" onClick={handleClick}>More Info</button>
             </div> */}
-            <div className="my-4 flex-col gap-4 justify-end font-main px-4 -mt-1 py-4 shadow-lg rounded-sm bg-gradient-to-r from-palewhite to-black ">
+            <div className="my-4 flex-col gap-4 justify-end font-main px-4 -mt-1 py-4 shadow-lg rounded-sm bg-gradient-to-r from-palewhite to-lightblue ">
               <div className="text-darkblue text-xl font-black">Price</div>
               <div className="text-lg font-extrabold">4 days /  3 nights</div>
               <button className="bg-lightyellow mt-4 mb-6 px-4 py-2 text-xl text-lightblue font-main font-semibold hover:bg-palewhite" onClick={handleClick}>More Info</button>

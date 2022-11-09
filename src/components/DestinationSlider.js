@@ -30,10 +30,10 @@ const DestinationSlider = () => {
             {sliderData.map((data) => (
                 <SwiperSlide key={data.id}>
                     
-                    <div className="flex-col md:flex md:flex-row md:items-center bg-gradient-to-l from-palewhite to-darkpink ">
+                    <div className="flex-col md:flex md:flex-row md:items-center bg-gradient-to-l from-lightblue to-palewhite ">
                         <img src={data.image} alt="" className="lg:w-1/2 lg:h-[75vh] md:w-96 h-80 w-screen"/>
-                        <div className="mx-8 bg-hero bg-cover px-8 opacity-90">
-                            <div className="text-5xl text-lightblue font-main font-extrabold my-4">
+                        <div className="mx-8  px-8 ">
+                            <div className="text-5xl text-white font-main font-extrabold my-4">
                                 {data.title}
                             </div>
                             <div className="text-white text-main my-2">

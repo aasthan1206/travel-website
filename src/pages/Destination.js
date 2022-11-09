@@ -19,38 +19,38 @@ const Destination = () => {
             <div className="text-center text-xl text-lightblue font-main my-8 mx-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum voluptas officia necessitatibus! Eum, fugit iure! Blanditiis, architecto velit? Vitae, officiis ea inventore repellendus blanditiis quisquam unde accusantium esse voluptate quo!</div>
             <Card />
             <table className="table-auto w-[50vw] text-center mx-auto font-main mt-64 mb-16">
-                  <thead className="text-2xl text-darkblue py-4 bg-lightpink h-16">
+                  <thead className="text-2xl text-darkblue py-4 bg-lightyellow h-16">
                     <th>Activities</th>
                     <th>3 D / 2 N</th>
                     <th>3 D / 2 N</th>
                     <th>3 D / 2 N</th>
                   </thead>
                     <tbody className="text-xl font-extrabold">
-                      <tr className="border-b-2 border-darkpink">
+                      <tr className="border-b-2 ">
                         <td className="py-4">1</td>
                         <td className="pl-16"><FaTimes className="text-red-600" /></td>
                         <td className="pl-16"><FaCheck className="text-green-600" /></td>
                         <td className="pl-16"><FaTimes className="text-red-600" /></td>
                       </tr>
-                      <tr className="border-b-2 border-darkpink bg-lightpink">
+                      <tr className="border-b-2  bg-lightyellow">
                         <td className="py-4">1</td>
                         <td className="pl-16"><FaTimes className="text-red-600" /></td>
                         <td className="pl-16"><FaCheck className="text-green-600" /></td>
                         <td className="pl-16"><FaCheck className="text-green-600" /></td>
                       </tr>
-                      <tr className="border-b-2 border-darkpink">
+                      <tr className="border-b-2 ">
                         <td className="py-4">1</td>
                         <td className="pl-16"><FaCheck className="text-green-600" /></td>
                         <td className="pl-16"><FaCheck className="text-green-600" /></td>
                         <td className="pl-16"><FaCheck className="text-green-600" /></td>
                       </tr>
-                      <tr className="border-b-2 border-darkpink bg-lightpink">
+                      <tr className="border-b-2  bg-lightyellow">
                         <td className="py-4">1</td>
                         <td className="pl-16"><FaTimes className="text-red-600" /></td>
                         <td className="pl-16"><FaTimes className="text-red-600" /></td>
                         <td className="pl-16"><FaTimes className="text-red-600" /></td>
                       </tr>
-                      <tr className="border-b-2 border-darkpink">
+                      <tr className="border-b-2 ">
                         <td className="py-4">1</td>
                         <td className="pl-16"><FaCheck className="text-green-600" /></td>
                         <td className="pl-16"><FaTimes className="text-red-600" /></td>
