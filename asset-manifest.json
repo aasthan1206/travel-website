@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/travel-website/static/css/main.ce1ef0e8.css",
+    "main.js": "/travel-website/static/js/main.8b48b832.js",
+    "static/js/787.397fec01.chunk.js": "/travel-website/static/js/787.397fec01.chunk.js",
+    "static/media/mountain.jpg": "/travel-website/static/media/mountain.59b22f41cccb830c82b5.jpg",
+    "static/media/jim.jpg": "/travel-website/static/media/jim.4adf2d5ec3211b267bc1.jpg",
+    "static/media/friends.jpg": "/travel-website/static/media/friends.4cf68d26ddfe370a07e1.jpg",
+    "static/media/family.jpg": "/travel-website/static/media/family.04ea5d41a8a2b735e5bc.jpg",
+    "static/media/nature.jpg": "/travel-website/static/media/nature.a6b4044c70d0b0d4e246.jpg",
+    "static/media/card.jpg": "/travel-website/static/media/card.8ce50e37969fe98525f1.jpg",
+    "static/media/solo.jpg": "/travel-website/static/media/solo.fff071b055fc8c006d73.jpg",
+    "static/media/bandhavgarh.jpg": "/travel-website/static/media/bandhavgarh.057bcf6c13c22a473017.jpg",
+    "static/media/booking.jpg": "/travel-website/static/media/booking.b0691105f0ca29d205bd.jpg",
+    "static/media/punducherry.jpg": "/travel-website/static/media/punducherry.cb771626f603f38ab12f.jpg",
+    "static/media/udaipur.jpg": "/travel-website/static/media/udaipur.ce86aa18b3a890ac15c3.jpg",
+    "static/media/couple.jpg": "/travel-website/static/media/couple.69fca7d7df428cc4bbe0.jpg",
+    "static/media/manali.jpg": "/travel-website/static/media/manali.3eb830d9039406c584cf.jpg",
+    "static/media/leh.jpg": "/travel-website/static/media/leh.e8e32e33720c60d0194c.jpg",
+    "static/media/goa.jpg": "/travel-website/static/media/goa.88c025599bb43b5d9fe8.jpg",
+    "static/media/desert.jpg": "/travel-website/static/media/desert.6d1fb75303ac8802ba27.jpg",
+    "static/media/wildlife.jpg": "/travel-website/static/media/wildlife.78a6203679e3b9ae91d2.jpg",
+    "static/media/ErnestandEmily.ttf": "/travel-website/static/media/ErnestandEmily.82d5591a0852187f3c2b.ttf",
+    "static/media/pune.jpg": "/travel-website/static/media/pune.67361964d55f584cb3b0.jpg",
+    "static/media/mumbai.jpg": "/travel-website/static/media/mumbai.1218ea156decfe07242c.jpg",
+    "static/media/Lato-Regular.ttf": "/travel-website/static/media/Lato-Regular.9d883d540ee2b4de8024.ttf",
+    "static/media/delhi.jpg": "/travel-website/static/media/delhi.71c0ded5c36af4f842dd.jpg",
+    "index.html": "/travel-website/index.html",
+    "main.ce1ef0e8.css.map": "/travel-website/static/css/main.ce1ef0e8.css.map",
+    "main.8b48b832.js.map": "/travel-website/static/js/main.8b48b832.js.map",
+    "787.397fec01.chunk.js.map": "/travel-website/static/js/787.397fec01.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ce1ef0e8.css",
+    "static/js/main.8b48b832.js"
+  ]
+}
