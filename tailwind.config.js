@@ -14,7 +14,7 @@ module.exports = {
         'lightyellow': '#FFEEC4',
       },
       fontFamily: {
-        main: ["Nunito-Regular"],
+        main: ["Lato-Regular"],
       },
       backgroundImage: {
         'login': "url('/src/assets/images/desert.jpg')",
