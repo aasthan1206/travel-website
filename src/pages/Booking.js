@@ -11,22 +11,22 @@ const Booking = () => {
         <form action="" className="lg:w-[45rem] mx-auto px-4 py-4 font-main font-extrabold text-2xl -mt-12 inset-x-0 rounded-sm shadow-lg shadow-black bg-lightyellow text-lightblue absolute">
                 <div className="lg:flex py-4 gap-8 w-full">
                     <div className="lg:w-1/2 pb-8 lg:pb-0">
-                        <label htmlFor="">Check In</label> <br />
-                        <input type="date" name="CheckIn" id="" className="h-12 px-4 w-full rounded-sm"/> <br />
+                        <label htmlFor="">Date of Arrival</label> <br />
+                        <input type="date" name="arrival" id="" className="h-12 px-4 w-full rounded-sm"/> <br />
                     </div>
                     <div className="lg:w-1/2">
-                        <label htmlFor="">Check Out</label> <br />
-                        <input type="date" name="CheckOut" id="" className="h-12 px-4 w-full rounded-sm"/>
+                        <label htmlFor="">Date of Departure</label> <br />
+                        <input type="date" name="departure" id="" className="h-12 px-4 w-full rounded-sm"/>
                     </div>
                 </div>
                 <div className="lg:flex gap-8 py-4 w-full">
                     <div className="lg:w-1/2 pb-8 lg:pb-0">
                         <label htmlFor="">Children</label> <br />
-                        <input type="number" name="Children" id="" placeholder="0" min="0" className="h-12 px-4 w-full rounded-sm"/> <br />
+                        <input type="number" name="children" id="" placeholder="0" min="0" className="h-12 px-4 w-full rounded-sm"/> <br />
                     </div>
                     <div className="lg:w-1/2 ">
                         <label htmlFor="">Adults</label> <br />
-                        <input type="number" name="Adults" id="" placeholder="0" min="0" className="h-12 px-4 w-full rounded-sm"/>
+                        <input type="number" name="adults" id="" placeholder="0" min="0" className="h-12 px-4 w-full rounded-sm"/>
                     </div>
                 </div>
                 <div className="py-4 w-full">
