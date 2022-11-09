@@ -1,9 +1,17 @@
-import React from 'react'
+import Navigation from '../components/shared/Navigation'
+import Hero from '../components/Hero'
+import DestinationSlider from '../components/DestinationSlider'
+import Card from '../components/Card'
+import Footer from '../components/shared/Footer'
 
 const Home = () => {
   return (
     <div>
-      Home Page
+        <Navigation />
+        <Hero />
+        <DestinationSlider />
+        <Card />
+        <Footer />
     </div>
   )
 }

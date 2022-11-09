@@ -1,0 +1,9 @@
+.swiper-button-prev::after, .swiper-button-next::after {
+    color: #F7DCED;
+    font-weight: bolder;
+    opacity: 70%;
+}
+
+.swiper-pagination-progressbar-fill {
+    background-color: #F7DCED !important;
+}
