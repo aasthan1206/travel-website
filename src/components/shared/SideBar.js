@@ -12,7 +12,7 @@ const SideBar = ({ className }) => {
   }
   return (
     <div className={className}>
-      <div className="bg-darkblue text-white font-main font-extrabold flex text-xl justify-between px-4 py-2 tracking-wider">
+      <div className="bg-darkblue text-white font-main font-extrabold flex text-xl justify-between px-4 py-2 tracking-widest">
         <div>TravelLog</div>
         <div className='cursor-pointer' onClick={handleClick}><FaBars /></div>
       </div>

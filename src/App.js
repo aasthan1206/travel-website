@@ -10,7 +10,7 @@ import Layout from './components/shared/Layout'
 function App() {
   return (
     <>
-		<Router>
+		<Router basename={process.env.PUBLIC_URL} >
 			<Layout>
 				<Routes>
 					<Route path="/" element={<Home />} ></Route>
