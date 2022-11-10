@@ -16,7 +16,10 @@ module.exports = {
       backgroundImage: {
         'hero': "url('/src/assets/images/mountain.jpg')",
         'login': "url('/src/assets/images/desert.jpg')",
-        'booking' : "url('/src/assets/images/booking.jpg')"
+        'booking' : "url('/src/assets/images/booking.jpg')",
+        'about' : "url('/src/assets/images/about.jpg')",
+        'contact' : "url('/src/assets/images/book.jpg')",
+        'payment' : "url('/src/assets/images/payment.jpg')",
       },
       fontFamily: {
         main: ["Lato-Regular"],
