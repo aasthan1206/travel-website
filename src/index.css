@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: ErnestandEmily-Regular;
+    src: url(./assets/fonts/ErnestandEmily.ttf);
+}
+
+@font-face {
+    font-family: Lato-Regular;
+    src: url(./assets//fonts/Lato-Regular.ttf);
+}
