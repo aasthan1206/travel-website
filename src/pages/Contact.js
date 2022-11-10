@@ -33,7 +33,7 @@ const Contact = () => {
                 <div className='absolute top-24 left-64 text-5xl font-special font-medium w-32'>With Our Experience We Will Serve You</div>
             </div>
         </div>
-        <div  className='flex mt-12 justify-center gap-24'>
+        <div  className='flex my-12 justify-center gap-24'>
             <div className='font-special text-5xl my-4'>
                     Get In Touch
             </div>

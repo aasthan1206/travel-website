@@ -6,7 +6,7 @@ const About = () => {
   return (
     <div>
       <div className="bg-about bg-cover opacity-80 h-[80vh]">
-        <div className="font-special font-extrabold text-9xl text-black text-center pt-20 opacity-80">Get to know us</div>
+        <div className="font-special font-extrabold text-9xl text-black text-center pt-20 opacity-80 tracking-wide">Get to know us</div>
       </div>
       <div className='text-center text-darkblue text-6xl font-main font-bold mt-8 mb-8 lg:mb-0'>About Us</div>
       <div className='flex flex-col items-center lg:flex-row lg:justify-center mb-8'>

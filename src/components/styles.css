@@ -7,3 +7,10 @@
 .swiper-pagination-progressbar-fill {
     background-color: #F7DCED !important;
 }
+
+/* .swiper-pagination-bullet-active {
+    background-color: #FF78B2 !important;
+} */
+.swiper-pagination-bullet {
+    background-color: #FF78B2 !important;
+}

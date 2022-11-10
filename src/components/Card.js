@@ -41,7 +41,7 @@ const Card = () => {
               <div className="text-darkblue text-xl font-black flex py-2"><FaRupeeSign className="w-7 h-7 p-1" />{data.price}</div>
               <div className="text-black text-base font-semibold ">Per Person</div>
               <div className="font-extrabold text-darkblue text-xl pt-4">4 days /  3 nights</div>
-              <button className="bg-lightyellow my-4 px-4 py-2 text-xl text-lightblue font-main font-semibold hover:bg-palewhite" onClick={handleClick}>More Info</button>
+              <button className="bg-lightyellow my-4 px-4 py-2 text-xl text-lightblue font-main font-semibold hover:bg-palewhite" onClick={handleClick}>Book Now</button>
               
             </div>
           </Link>

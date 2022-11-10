@@ -14,7 +14,7 @@ export const sliderData = [
         'id' : 1,
         'image' : goa,
         'title' : 'Goa',
-        'desc' : 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero esse adipisci doloribus maxime eveniet numquam illo sequi suscipit quo tempora quibusdam laborum exercitationem quasi labore distinctio porro vitae, nulla debitis.',
+        'desc' : 'Goa is a state in western India with coastlines stretching along the Arabian Sea. Its long history as a Portuguese colony prior to 1961 is evident in its preserved 17th-century churches and the area’s tropical spice plantations. Goa is also known for its beaches, ranging from popular stretches at Baga and Palolem to those in laid-back fishing villages such as Agonda. ',
     },
     {
         'id' : 2,
