@@ -7,7 +7,8 @@ import {FaCheck} from 'react-icons/fa'
 import { packageGrid } from "../utils/PackageSectionData"
 import { useState } from "react"
 
-const Destination = () => {
+
+const Leh = () => {
   const [isClicked, setIsClicked] = useState(false)
   const handleClick = () => {
     setIsClicked(!isClicked)
@@ -15,9 +16,9 @@ const Destination = () => {
   return (
     <div>
         <div className="">
-            <div className="text-6xl text-darkblue font-main font-extrabold my-8 mx-12 text-center">MANALI</div>
+            <div className="text-6xl text-darkblue font-main font-extrabold my-8 mx-12 text-center">Leh Ladakh</div>
             <DestinationImage />
-            <div className="text-justify text-2xl font-bold text-lightblue font-main my-8 mx-12">Manali is a high-altitude Himalayan resort town in India's northern Himachal Pradesh state. It has a reputation as a backpacking center and honeymoon destination. Set on the Beas River, it's a gateway for skiing in the Solang Valley and trekking in Parvati Valley. It's also a jumping-off point for paragliding, rafting and mountaineering in the Pir Panjal mountains, home to 4,000m-high Rohtang Pass.</div>
+            <div className="text-justify text-2xl font-bold text-lightblue font-main my-8 mx-12">Leh is the joint capital and largest city of Ladakh, a union territory of India. Leh, located in the Leh district, was also the historical capital of the Kingdom of Ladakh, the seat of which was in the Leh Palace, the former residence of the royal family of Ladakh, built in the same style and about the same time as the Potala Palace in Tibet. Leh is at an altitude of 3,524 m (11,562 ft), and is connected via National Highway 1 to Srinagar in the southwest and to Manali in the south via the Leh-Manali Highway (part of National Highway 3 connect leh).</div>
             <Card />
             <table className="table-auto w-[50vw] text-center mx-auto font-main mt-80 mb-16">
                   <thead className="text-2xl text-darkblue py-4 bg-lightyellow h-16">
@@ -78,4 +79,4 @@ const Destination = () => {
   )
 }
 
-export default Destination
+export default Leh

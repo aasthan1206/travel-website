@@ -7,7 +7,8 @@ import {FaCheck} from 'react-icons/fa'
 import { packageGrid } from "../utils/PackageSectionData"
 import { useState } from "react"
 
-const Destination = () => {
+
+const Jim = () => {
   const [isClicked, setIsClicked] = useState(false)
   const handleClick = () => {
     setIsClicked(!isClicked)
@@ -15,9 +16,9 @@ const Destination = () => {
   return (
     <div>
         <div className="">
-            <div className="text-6xl text-darkblue font-main font-extrabold my-8 mx-12 text-center">MANALI</div>
+            <div className="text-6xl text-darkblue font-main font-extrabold my-8 mx-12 text-center">Jim Corbett National Park</div>
             <DestinationImage />
-            <div className="text-justify text-2xl font-bold text-lightblue font-main my-8 mx-12">Manali is a high-altitude Himalayan resort town in India's northern Himachal Pradesh state. It has a reputation as a backpacking center and honeymoon destination. Set on the Beas River, it's a gateway for skiing in the Solang Valley and trekking in Parvati Valley. It's also a jumping-off point for paragliding, rafting and mountaineering in the Pir Panjal mountains, home to 4,000m-high Rohtang Pass.</div>
+            <div className="text-justify text-2xl font-bold text-lightblue font-main my-8 mx-12">Jim Corbett National Park is a forested wildlife sanctuary in northern India's Uttarakhand State. Rich in flora and fauna, it's known for its Bengal tigers. Animals, including tigers, leopards and wild elephants, roam the Dhikala zone. On the banks of the Ramganga Reservoir, the Sonanadi zone is home to elephants and leopards, along with hundreds of species of birds.</div>
             <Card />
             <table className="table-auto w-[50vw] text-center mx-auto font-main mt-80 mb-16">
                   <thead className="text-2xl text-darkblue py-4 bg-lightyellow h-16">
@@ -78,4 +79,4 @@ const Destination = () => {
   )
 }
 
-export default Destination
+export default Jim

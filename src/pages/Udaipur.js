@@ -7,7 +7,8 @@ import {FaCheck} from 'react-icons/fa'
 import { packageGrid } from "../utils/PackageSectionData"
 import { useState } from "react"
 
-const Destination = () => {
+
+const Udaipur = () => {
   const [isClicked, setIsClicked] = useState(false)
   const handleClick = () => {
     setIsClicked(!isClicked)
@@ -15,9 +16,9 @@ const Destination = () => {
   return (
     <div>
         <div className="">
-            <div className="text-6xl text-darkblue font-main font-extrabold my-8 mx-12 text-center">MANALI</div>
+            <div className="text-6xl text-darkblue font-main font-extrabold my-8 mx-12 text-center">Udaipur</div>
             <DestinationImage />
-            <div className="text-justify text-2xl font-bold text-lightblue font-main my-8 mx-12">Manali is a high-altitude Himalayan resort town in India's northern Himachal Pradesh state. It has a reputation as a backpacking center and honeymoon destination. Set on the Beas River, it's a gateway for skiing in the Solang Valley and trekking in Parvati Valley. It's also a jumping-off point for paragliding, rafting and mountaineering in the Pir Panjal mountains, home to 4,000m-high Rohtang Pass.</div>
+            <div className="text-justify text-2xl font-bold text-lightblue font-main my-8 mx-12">Udaipur, formerly the capital of the Mewar Kingdom, is a city in the western Indian state of Rajasthan. Founded by Maharana Udai Singh II in 1559, it's set around a series of artificial lakes and is known for its lavish royal residences. City Palace, overlooking Lake Pichola, is a monumental complex of 11 palaces, courtyards and gardens, famed for its intricate peacock mosaics.</div>
             <Card />
             <table className="table-auto w-[50vw] text-center mx-auto font-main mt-80 mb-16">
                   <thead className="text-2xl text-darkblue py-4 bg-lightyellow h-16">
@@ -78,4 +79,4 @@ const Destination = () => {
   )
 }
 
-export default Destination
+export default Udaipur

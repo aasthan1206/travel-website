@@ -1,4 +1,7 @@
-import { Swiper, SwiperSlide } from "swiper/react";
+import { Swiper, SwiperSlide } from "swiper/react"
+import { useState, useEffect } from "react"
+import axios from "axios"
+import { Link } from 'react-router-dom'
 
 // Import Swiper styles
 import "swiper/css";
@@ -13,6 +16,18 @@ import { Pagination, Navigation } from "swiper";
 
 
 const DestinationSlider = () => {
+    const[destination, setDestination] = useState({})
+    useEffect(() => {
+        const getDestination = async () => {
+            let res = await axios.get("https://localhost:3001/destination")
+            let { data } = res.data
+            // let _data = data.slice(0, 6)
+            setDestination(data)
+        }
+        getDestination()
+        console.log(destination)
+    }, [])
+
   return (
     <div className="mx-12 mb-12">
         <div className="text-darkblue text-4xl font-main font-black my-12 text-center">ICONIC DESTINATIONS</div>
@@ -39,7 +54,9 @@ const DestinationSlider = () => {
                             <div className="text-white text-main my-2">
                                 {data.desc}
                             </div>
-                            <button className="bg-lightyellow mt-4 mb-6 px-4 py-2 text-xl text-lightblue font-main font-semibold hover:bg-palewhite">Explore More</button>
+                            <Link to={data.to}>
+                                <button className="bg-lightyellow mt-4 mb-6 px-4 py-2 text-xl text-lightblue font-main font-semibold hover:bg-palewhite">Explore More</button>
+                            </Link>
                         </div>
                     </div>
                 </SwiperSlide>

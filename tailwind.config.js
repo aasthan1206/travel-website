@@ -24,6 +24,7 @@ module.exports = {
       fontFamily: {
         main: ["Lato-Regular"],
         special: ["ErnestandEmily-Regular"],
+        logo: ["Caveat-Regular"],
       },
     },
   },

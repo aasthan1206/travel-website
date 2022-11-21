@@ -9,6 +9,16 @@ import Payment from './pages/Payment'
 import Layout from './components/shared/Layout'
 import PackageSection from './components/PackageSection'
 
+import Goa from '../src/pages/Goa'
+import Puducherry from '../src/pages/Puducherry'
+import Udaipur from '../src/pages/Udaipur'
+import Leh from '../src/pages/Leh'
+import Jim from '../src/pages/Jim'
+import Bandhavgarh from '../src/pages/Bandhavgarh'
+import Mumbai from '../src/pages/Mumbai'
+import Pune from '../src/pages/Pune'
+import Delhi from '../src/pages/Delhi'
+
 function App() {
   return (
     <>
@@ -23,6 +33,16 @@ function App() {
 					<Route path="/Login" element={<Login />} ></Route>
 					<Route path="/Booking" element={<Booking />} ></Route>
 					<Route path="/Payment" element={<Payment />} ></Route>
+
+					<Route path="/Goa" element={<Goa />} ></Route>
+					<Route path="/Udaipur" element={<Udaipur />} ></Route>
+					<Route path="/Jim" element={<Jim />} ></Route>
+					<Route path="/Bandhavgarh" element={<Bandhavgarh />} ></Route>
+					<Route path="/Puducherry" element={<Puducherry />} ></Route>
+					<Route path="/Leh" element={<Leh />} ></Route>
+					<Route path="/Mumbai" element={<Mumbai />} ></Route>
+					<Route path="/Pune" element={<Pune />} ></Route>
+					<Route path="/Delhi" element={<Delhi />} ></Route>
 				</Routes>
       		</Layout>
     	</Router>

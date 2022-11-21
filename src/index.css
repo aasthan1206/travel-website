@@ -11,3 +11,8 @@
     font-family: Lato-Regular;
     src: url(./assets//fonts/Lato-Regular.ttf);
 }
+
+@font-face {
+    font-family: Caveat-Regular;
+    src: url(./assets//fonts/Caveat-Regular.ttf);
+}
